@@ -6,4 +6,4 @@ app = Flask(__name__)
 def hello_world():
    return "<p>PIZZA!</p>"
 if(__name__=="__main"):
-   app.run(debug=True)
+   app.run(debug=False)
